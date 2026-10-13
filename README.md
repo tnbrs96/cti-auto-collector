@@ -104,5 +104,6 @@ py -3.11 CTI_Auto_Collector.py --gn-limit 0 --vt-limit 0
 
 ## Licenze e crediti
 
+Codice sotto MIT, dati dei provider soggetti ai **rispettivi termini**. Il progetto non promette l'approvazione dei crediti EC-Council: *Author Security Tool* richiede paternità dimostrabile, pubblicazione open-source e verifica/feedback della comunità. Un repo GitHub pubblico non garantisce da solo i crediti.
 
 Collegamenti di riferimento: [CERT Polska](https://cert.pl/en/warning-list/), [Phishing.Database](https://github.com/Phishing-Database/Phishing.Database), [Phishunt](https://github.com/0xDanielLopez/phishunt-feed), [ThreatFox](https://threatfox.abuse.ch/api/), [MalwareBazaar](https://bazaar.abuse.ch/), [VirusTotal](https://docs.virustotal.com/reference/overview), [Spamhaus DROP](https://www.spamhaus.org/blocklists/do-not-route-or-peer/).
