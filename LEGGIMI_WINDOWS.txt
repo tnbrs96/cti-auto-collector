@@ -1,0 +1,14 @@
+CTI AUTO COLLECTOR v4.0 — ESECUZIONE WINDOWS
+
+1) Estrarre tutto lo ZIP in una cartella (es. Downloads\CTI-Auto-Collector).
+2) Aprire CMD in quella cartella.
+3) Eseguire: py -3.11 CTI_Auto_Collector.py
+4) Aprire CTI_Risultati\CTI_Findings.xlsx: iniziare dal foglio Dashboard e poi IOC_INDEX.
+5) Per gli indicatori separati: CTI_Risultati\IOC_per_tipo\
+6) Vedere sources.csv per gli eventuali errori delle singole fonti.
+
+NON occorrono pip, requests, pandas, xlsxwriter né inserimento manuale di IOC.
+Per test offline: py -3.11 -m unittest -v test_collector
+
+ATTENZIONE: non pubblicare nel repository i dati scaricati dai feed e non copiare API key.
+Le fonti pubbliche possono avere limitazioni e cambiare; l'assenza di un tipo non viene riempita con dati fittizi.

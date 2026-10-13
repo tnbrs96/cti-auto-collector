@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+CTI_Risultati/
+_cache/
+*_cache/
+_qa_private/
+QA_*/
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
